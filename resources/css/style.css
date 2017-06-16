@@ -1,8 +1,12 @@
+
+/* Universal Styles */
+
+
+/* header*/
 .header {
   top: 0;
   left: 0;
   width: 100%;
-  position: fixed;
   top: 10px;
   display: flex;
   direction: row;
@@ -11,6 +15,9 @@
   align-items: center;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .menu {
@@ -39,6 +46,27 @@
   align-items: center;
 }
 
-p {
-  z-index: 200;
+/* body */
+
+
+.content {
+    overflow: scroll;
+    color: red;
+    padding-top: 80px;
+    display: flex;
+}
+
+.column_links {
+  width: 630px;
+  border: 4px solid black;
+}
+
+.column_midden {
+  width: 300px;
+  border: 4px solid black;
+}
+
+.column_rechts {
+  width: 240px;
+  border: 1px solid black;
 }
