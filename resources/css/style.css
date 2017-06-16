@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  direction: row;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10 px;
+  border-bottom: 2px solid black;
+}
+
+.menu {
+ font-family: Verdana;
+ font-size: 14px;
+ background: blue;
+ font-weight: bold;
+ display: flex;
+ direction: row;
+ justify-content: space-around;
+}
+
+.logo{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: flex;
+  direction: row;
+  background-color: green;
+  height: 60px;
+  width: auto;
+  justify-content: space-around;
+}
