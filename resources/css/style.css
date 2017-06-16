@@ -1,21 +1,28 @@
 .header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  top: 10px;
   display: flex;
   direction: row;
-  background-color: red;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 10 px;
-  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .menu {
  font-family: Verdana;
  font-size: 14px;
- background: blue;
  font-weight: bold;
  display: flex;
  direction: row;
  justify-content: space-around;
+ width: 280px;
+ height: auto;
+ margin-right: 30px;
 }
 
 .logo{
@@ -25,8 +32,13 @@
   color: MediumAquamarine;
   display: flex;
   direction: row;
-  background-color: green;
   height: 60px;
-  width: auto;
-  justify-content: space-around;
+  width: 160px;
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  z-index: 200;
 }
