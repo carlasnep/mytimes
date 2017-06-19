@@ -1,12 +1,20 @@
 
 /* Universal Styles */
+
 h3 {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
 
+a {
+  color: black;
+  visited: black;
+  linkcolor: black;
+}
+
 /* header*/
+
 .header {
   top: 0;
   left: 0;
@@ -67,7 +75,7 @@ h3 {
   border: 1px solid black;
 }
 
-/* column links*/
+/* column left */
 
 .column_left {
   display: flex;
@@ -76,6 +84,7 @@ h3 {
   width: 630px;
   margin-right: 30px;
 }
+
 .titelmain {
   background-image: url("../images/img-story-main.png");
   height: 300px;
@@ -89,6 +98,7 @@ h3 {
 .puget {
   width: 299px;
 }
+
 .titelearth {
   display: flex;
   text-align: center;
@@ -117,15 +127,11 @@ h3 {
   color: white;
 }
 
-/* column midden*/
+/* column middle*/
 
-.column_midden {
+.column_middle {
   width: 300px;
   margin-right: 30px;
-}
-
-.brooklyn {
-
 }
 
 .column_rechts {
@@ -149,7 +155,8 @@ h3 {
 
 }
 
-/* column rechts*/
+/* column right*/
+
 .bites {
   background-color: WhiteSmoke;
   font-family: Verdana;
