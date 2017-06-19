@@ -66,14 +66,16 @@
 /* column links*/
 
 .column_links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   width: 630px;
-  border: 2px solid black;
   margin-right: 30px;
 }
-.titelpuget {
-  display: flex;
+.titelmain {
   background-image: url("../images/img-story-main.png");
   height: 300px;
+  width: 630px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -81,12 +83,14 @@
 }
 
 .puget {
-  border: 2px solid black;
+  width: 299px;
 }
-.titelmewyork {
+.titelearth {
   display: flex;
+  text-align: center;
   background-image: url("../images/img-story-2.png");
   height: 300px;
+  width: 299px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -94,13 +98,15 @@
 }
 
 .mewyork {
-  border: 2px solid black;
+  width: 299px;
 }
 
 .titelcamera {
   display: flex;
+  text-align: center;
   background-image: url("../images/img-story-3.png");
   height: 300px;
+  width: 299px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -111,17 +117,15 @@
 
 .column_midden {
   width: 300px;
-  border: 3px solid black;
   margin-right: 30px;
 }
 
 .brooklyn {
-  border: 2px solid black;
+
 }
 
 .column_rechts {
   width: 240px;
-  border: 2px solid black;
   margin-right: 30px;
 }
 
@@ -133,8 +137,9 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .cat {
-  border: 1px solid black;
+
 }
